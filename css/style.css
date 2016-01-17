@@ -1,0 +1,123 @@
+/*
+ * General Styles
+*/
+html {
+  font-size: 100%;
+}
+
+
+body {
+  background: url('../images/zocolo.jpg');
+  font-family: 'Open Sans', arial, sans-serif;
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+p.coming {
+  padding-top: 20px;
+  text-align: center;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #CE1126;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  color: #006847;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+/*
+ * Container Styles
+*/
+
+.hero img{
+  width: 100%;
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+
+.container {
+  width: 37.5rem;
+  margin: 6.25rem auto;
+
+
+}
+
+.container section:nth-child(3) {
+   background: #FFF;
+}
+
+.hero {
+  line-height: 0;
+
+}
+
+aside.left {
+  float:left;
+}
+
+
+aside.right {
+  float:right;
+}
+
+aside {
+  margin-right: 1.5rem;
+}
+
+section.intro, section.contact {
+  padding: 2.5rem;
+}
+
+section.intro{
+  background: #FFF;
+}
+
+/*section.contact {
+  background: #18B9B9
+}*/
